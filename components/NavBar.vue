@@ -3,7 +3,7 @@
         <nuxt-link to="/" class="brand">Light Plant's</nuxt-link>
         <nav>
           <nuxt-link to="/">List</nuxt-link>&nbsp;|
-          <nuxt-link to="/create">Create</nuxt-link>
+          <nuxt-link to="/plant/create">Create</nuxt-link>
         </nav>
       </div>
     </template>
