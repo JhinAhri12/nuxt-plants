@@ -9,7 +9,18 @@
     export default {
       components: {
         NavBar
-      }
+      },
+      head: {
+        titleTemplate: '%s - Real World Plants', // <-- title template
+        meta: [
+          {
+            hid: 'description',
+            name: 'description',  // <-- moved this over from index.vue
+            content:
+              'Where you can find all the Plants'
+          }
+        ]
+      },
     };
     </script>
 <style>
