@@ -52,7 +52,7 @@ a {
   background-color: transparent;
 }
 img {
-  border-style: none;
+  height: 200px;
   width: 100%;
 }
 h1,

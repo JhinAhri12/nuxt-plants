@@ -1,12 +1,15 @@
    <template>
       <div>
-        <h1>{{ plant.name }}</h1>
-        <h2>{{ plant.scientificName }}</h2>
-        <div>
+        
+        <div class="plant-overflow">
+          <div class="plant-infos">
+            <h1>{{ plant.name }}</h1>
+            <h2><i>{{ plant.scientificName }}</i></h2>
+          </div>
           <div>
             <img :src="plant.img" alt="plant.name">
           </div>
-          <div>
+          <div class="plant-desc">
             {{plant.description}}
           </div>
         </div>
@@ -43,3 +46,24 @@
       }
     }
     </script>
+    <style scoped>
+    h2{
+      color:#39b982;
+    }
+    .plant-desc {
+        padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+  color:grey;
+    }
+    .plant-overflow{
+        overflow: hidden;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    }
+    .plant-infos{
+      padding: 12px;
+    }
+    </style>
