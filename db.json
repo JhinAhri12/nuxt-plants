@@ -2,17 +2,27 @@
   "plants": [
     {
       "id": 1,
-      "name": "Lotus"
+      "name": "Lotus",
+      "scientificName": "Nelumbo nucifera",
+      "description": "En botanique, le lotus, dont le nom dérive du grec lotos par le latin lotus, est un nom vernaculaire ambigu qui désigne en français diverses plantes, arbres, arbustes ou herbes, terrestres ou aquatiques, qui portaient déjà ce nom dans l'Antiquité.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Nymphaea_lotus_1.jpg/330px-Nymphaea_lotus_1.jpg"
+      
       
     },
     {
       "id": 2,
-      "name": "Lila"
+      "name": "Lila",
+      "scientificName": "Syringa vulgaris",
+      "description": "Les « lilas » sont des arbrisseaux dont la couleur de la fleur peut être de plusieurs nuances de mauves, violet et blanche.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Lilas_Boutons_FR_2013.jpg/330px-Lilas_Boutons_FR_2013.jpg"
       
     },
     {
       "id": 3,
-      "name": "Tulipe"
+      "name": "Tulipe",
+      "scientificName": "Tulipa clusiana",
+      "description": "Les tulipes forment un genre (Tulipa) de plantes herbacées de la famille des Liliacées, qui compte une centaine d'espèces originaires des régions tempérées chaudes de l'Ancien Monde. Plusieurs espèces sont largement cultivées comme plantes ornementales et ont donné lieu à la création de plusieurs milliers de variétés." ,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Tulip_Tulipa_clusiana_%27Lady_Jane%27_Rock_Ledge_Plant_1730px.jpg/435px-Tulip_Tulipa_clusiana_%27Lady_Jane%27_Rock_Ledge_Plant_1730px.jpg"
       
     }
   ]

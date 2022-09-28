@@ -18,15 +18,19 @@ export default {
       title: 'Plant Listing'
     }
   },
-  asyncData({ $axios }) {
-    return $axios.get("http://localhost:3000/plants").then((response) => {
-      return {
-        plants: response.data,
-      };
-    }).catch(e => {
-          error({ statusCode: 503, message: 'Unable to fetch plants at this time, please try again' })
-  })
-  },
+  async asyncData({ $axios, error }) {
+        try {
+          const { data } = await $axios.get('http://localhost:3000/plants')
+          return {
+            plants: data
+          }
+        } catch (e) {
+          error({
+            statusCode: 503,
+            message: 'Unable to fetch plants at this time'
+          })
+        }
+      },
   components: {
     PlantCard
   }
