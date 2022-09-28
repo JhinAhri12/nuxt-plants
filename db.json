@@ -1,0 +1,19 @@
+{
+  "plants": [
+    {
+      "id": 1,
+      "name": "Lotus"
+      
+    },
+    {
+      "id": 2,
+      "name": "Lila"
+      
+    },
+    {
+      "id": 3,
+      "name": "Tulipe"
+      
+    }
+  ]
+}
