@@ -1,6 +1,15 @@
    <template>
       <div>
         <h1>{{ plant.name }}</h1>
+        <h2>{{ plant.scientificName }}</h2>
+        <div>
+          <div>
+            <img :src="plant.img" alt="plant.name">
+          </div>
+          <div>
+            {{plant.description}}
+          </div>
+        </div>
       </div>
     </template>
     <script>

@@ -4,6 +4,7 @@
           <h2 class="title">
             {{ plant.name }}
           </h2>
+          <h3><i>{{plant.scientificName}}</i></h3>
         </div>
       </nuxt-link>
     </template>
